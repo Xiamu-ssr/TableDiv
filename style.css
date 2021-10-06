@@ -1,0 +1,259 @@
+
+/*choose backg*/
+.backg1
+{
+    background-image: url(picture/backg1.png);
+    background-attachment:fixed;
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+}
+/*line under the logo*/
+.line-under-logo
+{
+    width: 100%;
+    height: 5px;
+    border: none;
+    border-top: 3px solid darkturquoise;
+}
+/*menu row will use this*/
+.menu
+{
+    width: 61%;
+    margin-left: 19%;
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+    background-color: dodgerblue;
+    border-radius: 25px;
+}
+li
+{
+    float:left;
+}
+li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover
+{
+    background-color: tomato;
+}
+
+.cartoon
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.cartoon:hover
+{
+    background-color: tomato;
+}
+.cartoon-text
+{
+    color:dodgerblue;
+    text-align: left;
+    display: none;
+}
+
+.cartoon:hover .cartoon-text
+{
+    display:inline;
+}
+.cartoon-text:hover
+{
+    text-decoration: underline;
+}
+
+/*grid of menu will use this*/
+a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/*my message on the left use it*/
+.news-left
+{
+    float: left;
+    width: 90px;
+    height: 150px;
+    margin: 60px 0px 0px 90px;
+}
+.news-head
+{
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    transition: all 0.6s;
+}
+.news-left:hover .news-head
+{
+    transform: rotate(720deg);
+}
+.news-text
+{
+    background:dodgerblue;
+    opacity: 0;
+    width: 80px;
+    height: 50px;
+    border-radius: 10%;
+    position: absolute;
+    transition: all 1s;
+    /*border: double;*/
+}
+.news-left:hover .news-text
+{
+    opacity: 1;
+    transform: translateY(20%);
+}
+
+
+/*notice block at right side use some higher functions*/
+.notice-block
+{
+    background-color: rgba(255, 255, 255, 0.4);
+    z-index: 3;
+    width: 200px;
+    height: 50%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3);
+    position: fixed;
+    top: 50%;
+    right: -200px;
+    transform: translateY(-50%);
+    transition: right .2s;
+}
+.notice-text
+{
+    padding: 10%;
+    font-family: fantasy;
+    font-size: 20px;
+    color: tomato;
+    text-shadow: 0 1px 1px rgba(255, 0, 0, 0.3);
+
+}
+.notice-block .notice-title
+{
+    width: 20px;
+    text-align: center;
+    font-size: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 10px 2px 10px 2px;
+    position: absolute;
+    left: -24px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #004974;
+    color: #fff;
+    cursor: pointer;
+}
+.notice-block:hover
+{
+    right:0px;
+}
+
+/*picture of table use those mask*/
+.tablemain
+{
+
+    width: 1250px;
+    height: 740px;
+    margin: 0px;
+}
+
+.div-table
+{
+    float: left;
+    position : relative;
+    width: 330px;
+    height: 330px;
+    margin: 10px;
+}
+.mask-table
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0px;
+    background: rgba(25, 140, 230, 0.3);
+    opacity: 0;
+    border-radius: 25px;
+}
+.div-table:hover .mask-table
+{
+    opacity: 1;
+    cursor: pointer;
+}
+.mask-table-text
+{
+    padding: 0% 10% 10% 10%;
+    color: white;
+    text-shadow: 0 1px 1px tomato;
+}
+/*table bootom that  row use this*/
+.table-bottom
+{
+    text-align: center;
+    background: rgba(40, 130, 250, 0.6);
+    border: double;
+    border-color: tomato;
+    border-radius: 30px;
+    width: 1300px;
+    height: 100%;
+}
+.table-bottom:hover
+{
+    text-decoration: underline;
+}
+/*content others under the table*/
+.div-under-table
+{
+    width: 1100px;
+    height: 600px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background: rgba(255, 255, 255, 0.5);
+    border: double;
+    border-color: tomato;
+    
+}
+.div-under-table-top
+{
+    padding-left: 20px;
+    height: 20px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background: rgba(160, 160, 160, 0.5);
+    border-style: solid;
+    border-color: tomato;
+}
+.under-table-text
+{
+    width: 100%;
+    height: 50px;
+    margin: 3%;
+    font-size: 30px;
+    color: greenyellow;
+    text-shadow: 1px 1px 1px greenyellow;
+}
+.under-table-text:hover
+{
+    text-decoration: underline;
+    text-decoration-color: tomato;
+}
