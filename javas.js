@@ -26,7 +26,7 @@ function resize()
     }
 
     var body=document.getElementById('bodybackg');
-    if(w<1300)
+    if(w<1350)
     {
         body.style.display='inline';
     }
