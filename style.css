@@ -214,7 +214,7 @@ a
     border: double;
     border-color: tomato;
     border-radius: 30px;
-    width: 1300px;
+    width: 1250px;
     height: 100%;
 }
 .table-bottom:hover
@@ -224,7 +224,7 @@ a
 /*content others under the table*/
 .div-under-table
 {
-    width: 1100px;
+    width: 1250px;
     height: 600px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
